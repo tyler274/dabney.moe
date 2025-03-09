@@ -39,8 +39,11 @@ pub fn App() -> impl IntoView {
                     </div>
                 </nav>
 
-                <Routes fallback=|| view! { <ErrorTemplate/> }>
+                <Routes fallback=move || {
+                    view! { <HomePage/> }
+                }>
                     <Route path=path!("/") view=HomePage/>
+                    <Route path=path!("/*any") view=HomePage/>
                     <Route path=path!("/games") view=GamesPage/>
                     <Route path=path!("/about") view=AboutPage/>
                 </Routes>
