@@ -4,6 +4,8 @@
 
 This is the official website for Dabney Engineering Inc., built with Rust and WebAssembly using the Leptos framework.
 
+Visit the site at: https://tyler274.github.io/dabney.moe/
+
 ## Features
 
 - Fast, responsive web experience powered by Rust and WebAssembly
