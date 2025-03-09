@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dabney Engineering</title>
+    
+<script type="module">
+import init, * as bindings from '/dabney_engineering-89230327b61acb1e.js';
+const wasm = await init({ module_or_path: '/dabney_engineering-89230327b61acb1e_bg.wasm' });
+
+
+window.wasmBindings = bindings;
+
+
+dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
+
+</script>
+    <link rel="stylesheet" href="/output-1cf81d499d9a6123.css" integrity="sha384&#x2D;fPbrQirnZRn8otHwnzrSZFgTwebZ0Z3s5&#x2F;wicdYlGbRXA2&#x2B;qiahlX&#x2B;t1OXcrY5O3"/>
+    
+    <link rel="icon" href="/favicon-c920ca43256fdcb9.ico" integrity="sha384&#x2D;OLBgp1GsljhM2TJ&#x2B;sbHjaiH9txEUvgdDTAzHv2P24donTt6&#x2F;529l&#x2B;9Ua0vFImLlb"/>
+<link rel="modulepreload" href="/dabney_engineering-89230327b61acb1e.js" crossorigin="anonymous" integrity="sha384-oX5kmiBpLZvqwvIIGvYpxHNI0vVNgA13XZa15b2ze4Zk0yTOh1KpgOXa3z4aJsl4"><link rel="preload" href="/dabney_engineering-89230327b61acb1e_bg.wasm" crossorigin="anonymous" integrity="sha384-W7NblClT4sFX8ZolNWEwFmcRl1w4aFWJEZ7uACnD8bt1y0Ma+5s5Bu5MO0pIG9OR" as="fetch" type="application/wasm"></head>
+
+<body></body>
+
+</html>
